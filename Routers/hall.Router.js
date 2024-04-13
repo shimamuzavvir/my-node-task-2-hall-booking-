@@ -1,5 +1,5 @@
 import express from 'express'
-import { AllCustomerBookedData, BookRoom, BookedRoomData, CreateRoom, RoomDetail, customerBookingDetails } from '../Controllers/hall.controller.js';
+import { AllCustomerBookedData, BookRoom, BookedRoomData, CreateRoom, RoomDetail, customerBookingDetails } from '../Controllers/hall.Controller.js';
 
 const router = express.Router()
 
